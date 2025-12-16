@@ -1,7 +1,78 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to Linktree...</title>
-<link rel="canonical" href="https://linktr.ee/byju4649">
-<meta http-equiv="refresh" content="0; url=https://linktr.ee/byju4649">
-<h1>Redirecting...</h1>
-<a href="https://linktr.ee/byju4649">Click here if you are not redirected automatically.</a>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>byju's homepage</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        display: flex;
+        box-sizing: border-box;
+        width: 100vw;
+      }
+
+      #links {
+        background: rgb(240, 240, 255);
+        padding: 60px 100px 0 30px;
+        min-height: 100vh;
+        box-sizing: border-box;
+        border-right: 3px ridge;
+      }
+
+      #links a {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+      }
+
+      #links a:before {
+        width: 16px;
+        height: 16px;
+        border-radius: 10000px;
+        content: "";
+        background: red;
+        display: block;
+        margin-right: 12px;
+      }
+
+      #links a:nth-child(1):before {
+        background: #ffcccc;
+      }
+
+      #links a:nth-child(2):before {
+        background: #00ff00;
+      }
+
+      #profile {
+        flex: 1;
+        text-align: center;
+        background: url("./byju-text.png");
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="links">
+        <a href="https://www.youtube.com/@byju-yt" target="_blank">youtube</a>
+        <a href="https://suzuri.jp/byju" target="_blank">suzuri</a>
+      </div>
+      <div id="profile">
+        <h1>ばいじゅのホームページ</h1>
+        <h2>byju's homepage</h2>
+        <img src="./byju512.png" />
+        <div>
+          <div>梅寿（ばいじゅ）/ byju</div>
+          <div>生年月日：紀元後 (Birthday: Anno Domini)</div>
+          <div>
+            血液型：輸血で不公平なやつ (Blood Type: can give, but not take)
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
